@@ -14,9 +14,8 @@
   "author": "ntblack",
   "license": "MIT",
   "dependencies": {
-    "archiver": "^1.0.0",
     "jsforce": "1.6.5",
     "jsforce-connection": "https://github.com/ntblack/jsforce-connection",
-    "node-fetch": "1.5.3"
+    "jsforce-deploy": "https://github.com/ntblack/jsforce-deploy"
   }
 }
