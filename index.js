@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 const deploy = require('./lib/deploy')();
 
@@ -11,7 +12,7 @@ const migrate = function(dir) {
       return;
     } else {
       for(file of files) {
-        deploy(file);
+        deploy(`${dir}${path.sep}${file}`);
       } 
     }
   });
